@@ -172,11 +172,7 @@ docker-compose up -d
 ├── main.py              # 主程序文件
 ├── requirements.txt     # Python依赖清单
 ├── Dockerfile           # Docker构建文件
-├── run_influx_write.sh  # InfluxDB写入脚本
-├── .gitignore           # Git忽略文件
-├── .dockerignore        # Docker忽略文件
 ├── pyproject.toml       # Python项目配置
-├── uv.lock              # UV依赖锁定文件
 └── README.md            # 项目说明文档
 ```
 
