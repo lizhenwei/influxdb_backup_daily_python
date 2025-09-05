@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-这是一个用于InfluxDB数据库每日备份和恢复的自动化工具，主要功能是通过SSH连接远程InfluxDB服务器，执行数据导出，下载备份文件，并将数据写入到目标InfluxDB实例。该工具支持定时任务执行，可通过企业微信发送异常通知，确保数据备份和恢复过程的可靠性。
+这是一个用于InfluxDB数据库每日备份和恢复的自动化工具，主要功能是通过SSH连接远程InfluxDB服务器，执行数据导出，下载备份文件，并将数据写入到目标InfluxDB实例。相比之前的shll方式,换了influxd inspect export-lp方法来备份,使用influx write方法来写入,速度更快
 
 ## 功能特性
 
@@ -17,7 +17,7 @@
 
 ## 环境要求
 
-- Python 3.8+ 或 Docker
+- Python 3.12+ 或 Docker
 - InfluxDB CLI 工具
 - SSH连接权限
 - 网络连接（企业微信通知功能）
