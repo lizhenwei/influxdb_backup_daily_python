@@ -27,7 +27,7 @@
 ### 1. 克隆代码仓库
 
 ```bash
-git clone <您的仓库地址>
+git clone https://github.com/lizhenwei/influxdb_backup_daily_python
 cd influxdb_backup_daily
 ```
 
